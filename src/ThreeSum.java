@@ -23,7 +23,7 @@ public class ThreeSum{
         Stopwatch time = new Stopwatch();
 
         StdOut.println(count(a));
-        StdOut.println("Elapsed time = " + time.elapsedTime());
+        StdOut.println("Затрачено времени = " + time.elapsedTime());
 
     }
 }
