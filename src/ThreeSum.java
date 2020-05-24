@@ -19,7 +19,9 @@ public class ThreeSum{
     }
 
     public static void main(String[] args) {
-        int[] a = In.readInts(args[0]);
+        In in = new In(args[0]);
+        int[] a = in.readAllInts();
+
         StdOut.println(count(a));
 
     }
