@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class ThreeSum{
 
-    private ThreeSum() { }
+
 
 
     public static int count(int[] a){
@@ -28,8 +28,8 @@ public class ThreeSum{
         In in = new In(args[0]);
         int[] a = in.readAllInts();
 
-        int count = count(a);
-        StdOut.println(count);
+
+        StdOut.println(count(a));
 
     }
 }
