@@ -5,9 +5,6 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class ThreeSum{
 
-
-
-
     public static int count(int[] a){
         int n = a.length;
         int count = 0;
@@ -22,7 +19,6 @@ public class ThreeSum{
     public static void main(String[] args) {
         In in = new In(args[0]);
         int[] a = in.readAllInts();
-
 
         StdOut.println(count(a));
 
