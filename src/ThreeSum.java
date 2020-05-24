@@ -2,6 +2,7 @@ package src;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.Stopwatch;
 
 public class ThreeSum{
 
@@ -19,8 +20,10 @@ public class ThreeSum{
     public static void main(String[] args) {
         In in = new In(args[0]);
         int[] a = in.readAllInts();
+        Stopwatch time = new Stopwatch();
 
         StdOut.println(count(a));
+        StdOut.println("Elapsed time = " + time.elapsedTime());
 
     }
 }
